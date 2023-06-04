@@ -4,10 +4,10 @@ Kriptografi adalah sebuah aplikasi yang dapat digunakan untuk melakukan berbagai
 
 ## Fitur
 
-- Import Data: Anda dapat mengimpor data untuk dienkripsi atau didekripsi dari file teks.
-- Enkripsi: Anda dapat melakukan enkripsi teks menggunakan algoritma kriptografi AES (Advanced Encryption Standard).
-- Dekripsi: Anda dapat melakukan dekripsi teks yang telah dienkripsi menggunakan algoritma AES.
-- Manajemen Database: Anda dapat melakukan verifikasi login menggunakan database MySQL, serta mengakses dan mengelola data dalam database.
+- Import Data: Dapat mengimpor data untuk dienkripsi atau didekripsi dari file teks.
+- Enkripsi: Dapat melakukan enkripsi teks menggunakan algoritma kriptografi AES (Advanced Encryption Standard).
+- Dekripsi: Dapat melakukan dekripsi teks yang telah dienkripsi menggunakan algoritma AES.
+- Manajemen Database: Dapat melakukan verifikasi login menggunakan database MySQL, serta mengakses dan mengelola data dalam database.
 
 ## Penggunaan
 
@@ -16,10 +16,10 @@ Kriptografi adalah sebuah aplikasi yang dapat digunakan untuk melakukan berbagai
    ```shell
    pip install -r requirements.txt
 
-2. Pastikan Anda telah memiliki server MySQL yang berjalan dan sesuaikan parameter koneksi database pada kode program (host, user, password, database).
+2. Pastikan User telah memiliki server MySQL yang berjalan dan sesuaikan parameter koneksi database pada kode program (host, user, password, database).
 
 3. Jalankan aplikasi dengan perintah berikut:
    ```shell
    streamlit run kriptografi.py
 
-4. Aplikasi akan berjalan di web browser lokal. Anda akan diminta untuk login sebelum dapat menggunakan fitur-fitur aplikasi. Jika berhasil login, Anda akan melihat menu dengan pilihan fitur-fitur yang tersedia. Pilihlah salah satu fitur untuk memulai.
+4. Aplikasi akan berjalan di web browser lokal. User akan diminta untuk login sebelum dapat menggunakan fitur-fitur aplikasi. Jika berhasil login, User akan melihat menu dengan pilihan fitur-fitur yang tersedia. Pilihlah salah satu fitur untuk memulai.
